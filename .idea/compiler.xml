@@ -6,20 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="myproject.ui.apps" />
         <module name="myproject.all" />
         <module name="myproject.core" />
-        <module name="myproject.ui.apps" />
-        <module name="myproject.ui.apps.structure" />
         <module name="myproject.ui.content" />
+        <module name="myproject.ui.apps.structure" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="myproject" target="1.8" />
-      <module name="myproject.all" target="1.8" />
-      <module name="myproject.core" target="1.8" />
-      <module name="myproject.ui.apps" target="1.8" />
-      <module name="myproject.ui.apps.structure" target="1.8" />
-      <module name="myproject.ui.content" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
